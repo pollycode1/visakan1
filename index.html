@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auto Play Video</title>
 </head>
 
 <body style="margin:0;background:black">
-  <video
-    autoplay
-    muted
-    loop
-    playsinline
-    webkit-playsinline
-    preload="auto"
-    width="100%"
-    height="100%"
-    controls
-    style="object-fit:cover">
-    
-    <source src="video.mp4" type="video/mp4">
-  </video>
+
+  <iframe
+    src="https://www.youtube.com/embed/UUmax2rAMCc?autoplay=1&mute=1&playsinline=1&controls=0&rel=0"
+    style="width:100vw;height:100vh;border:none"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+
 </body>
 </html>
